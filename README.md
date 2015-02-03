@@ -1,4 +1,3 @@
 Tests
 =====
-
-编写的一些测试文件，很多代码可以研究复用。
+Record my test file, but incomplete.
