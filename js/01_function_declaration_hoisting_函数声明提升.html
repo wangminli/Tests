@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<script>
+			/* 1. 解析器会率先读取函数声明，并使其在执行任何代码之前可用（可以访问）
+				 2. 至于函数表达式，则必须等到解析器执行到它所在的代码行 
+				 —— 《ProJS》
+			*/			
+			alert(sum1(10, 10));
+			function sum1(num1, num2){
+				return num1 + num2;
+			}	//ok
+/*			
+			alert(sum2(10, 10));
+			var sum2 - function(sum1, sum2){
+				return sum1 + sum2;
+			}// error
+			*/
+		</script>
+	</head>
+	<body>
+	this is a js test.
+	</body>
+</html>
