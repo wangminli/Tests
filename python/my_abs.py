@@ -4,3 +4,5 @@ def my_abs(x):
 		return x
 	else:
 		return -x
+
+print my_abs(5)
