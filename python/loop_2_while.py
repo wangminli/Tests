@@ -9,4 +9,3 @@ while n <= 100:
 	#n++		# 不支持i++
 	n +=1 
 print sum
-
