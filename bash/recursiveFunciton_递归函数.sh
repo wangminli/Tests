@@ -8,5 +8,5 @@ F(){
 	F $i;
 	sleep 9;
 }
-
-F hello
+# 执行F函数
+F
