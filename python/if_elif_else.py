@@ -1,8 +1,7 @@
 #! /usr/bin/env python
 # -*-coding:utf-8 -*-
 
-#age=raw_input()  #bug：使用这个不能正常判断
-age=12
+age=int(raw_input())  #raw_input()接收的是字符串，需要手动转成int类型
 if age >= 18:
 	print 'adult'
 elif age >= 6:
