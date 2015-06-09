@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 # -*-coding:utf-8 -*-
 
-''
+'ui显示界面'
 from Tkinter import *
 class Application(Frame):
      def __init__(self, master=None):
