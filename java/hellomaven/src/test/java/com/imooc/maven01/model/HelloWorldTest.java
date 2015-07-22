@@ -7,8 +7,6 @@ public class HelloWorldTest{
 	@Test
 	public void testHello(){
 		Assert.assertEquals("Hello World.", new HelloWorld().sayHello());
+		System.out.println("------------>: hello world....");
 	}
-
-
-
 }
