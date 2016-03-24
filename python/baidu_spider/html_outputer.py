@@ -27,6 +27,7 @@ class HtmlOutputer(object):
         fout.write("</table>")
         fout.write("</body>")
         fout.write("</html>")
+        fout.write("<style>td{ border:2px solid green;}</style>")
         print '---------------------'
         fout.close()
 

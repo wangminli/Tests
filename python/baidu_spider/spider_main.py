@@ -22,7 +22,7 @@ class SpiderMain(object):
                 self.urls.add_new_urls(new_urls)#添加批量url
                 self.outputer.collect_data(new_data)#收集新的数据
             
-                if count==10:
+                if count==20:
                     break
                 count+=1
             except Exception as e:
@@ -31,6 +31,7 @@ class SpiderMain(object):
         self.outputer.output_html()#输出收集好的数据
 
 if __name__=="__main__":
-    root_url="http://baike.baidu.com/subview/3091/8045178.htm"#入口url
+    #root_url = "http://baike.baidu.com/link?url=dxBMV5Q7lxgK41FTwc6WZNMdWkrG-BfpR9ZgiDIWv7femSjns_FaNusoOD0_TZfbG0Y_Ria4x8qtJyXzIfMLGeyZjsMc1NZcHlPdCvMRT2_"
+    root_url = "http://baike.baidu.com/view/1634.htm" 
     obj_spider = SpiderMain()
     obj_spider.craw(root_url)
